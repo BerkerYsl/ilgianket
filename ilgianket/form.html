@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!-- This is how HTML comments look like -->
+<html>
+<!-- the title will appear on the page-->
+<head>
+    <meta charset="utf-8">
+<title>Öğrenci İlgileri Anketi</title>
+</head>
+<body>
+<form action="http://google.co.in">
+
+<div align="center">
+
+<h1>Öğrenci İlgileri Anketi</h1>
+Adınız:
+<input type="text" name="UserName" size=30 maxlength=30 value=""> <br> </br>
+Yaşınız: <input type="text" id="age" name="age" min="17" max="60" size=35 maxlength=35>
+</br> <br>
+Okul: <input type="text" id="col" name="col" size=35 maxlength=35 disabled value="Uludağ Üniversitesi"> <br> </br>
+Bölüm<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+Kendinizi bir cümleyle anlatın:
+<textarea name="Comments" cols=30 rows=2></textarea> </br> </br>
+Evde Egzersiz Yapıyor Musunuz?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Evet
+<input type="radio" name="exe" value=2>Hayır
+</p>
+Öğrenmek İstediğiniz Bir Konu Hakkında Bilgiye Nereden Ulaşırsınız?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="Books">Kitaplardan
+<input type="checkbox" name="Web">İnternetten
+<input type="checkbox" name="Phone">İnsanlardan
+<input type="checkbox" name="Magazines">Diğer
+</p>
+Ne Tür Film İzlemeyi Seviyorsunuz?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" autofocus="" ><option>
+<option value=1 selected = "true">Komedi
+<option value=2 >Romantik
+<option value=3 >Aksiyon  
+<option value=4 >Macera
+<option value=5 >Korku
+</select>
+<br> <br>
+Kendine 100 Üzerinden Puan Verecek Olsan Kaç Olurdu?
+<input type="range" id="range" name="range" min="0" max="100" step="5">
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Formu Gönder"> <input type="reset" value="Temizle">
+</div>
+</form>
+</body>
+</html>
